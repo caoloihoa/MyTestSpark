@@ -2,6 +2,8 @@ package com
 
 import org.apache.spark.sql.SparkSession
 
+import scala.util.Random
+
 object readFile {
   def main(args: Array[String]): Unit = {
     System.setProperty("hadoop.home.dir", "D:\\winutils-master\\hadoop-3.0.0")
@@ -13,9 +15,10 @@ object readFile {
       .config("spark.sql.catalog.hadoop_prod.type", "hadoop")
       .config("spark.sql.catalog.hadoop_prod.warehouse", "D:\\workspace\\MyTestSpark\\MyTestSpark\\wareHouse")
       .getOrCreate();
+    val rand = new Random()
     val df = spark.read
       .format("iceberg")
-      .load("hadoop_prod.spark_demo1.zipcodes")
+      .load("hadoop_prod.spark_demo.zipcodes")
     df.printSchema()
     df.show(10, false)
   }

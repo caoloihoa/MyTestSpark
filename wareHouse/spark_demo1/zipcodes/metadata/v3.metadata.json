@@ -1,0 +1,318 @@
+{
+  "format-version" : 1,
+  "table-uuid" : "3feab5c9-d751-47be-a672-3a0c76ce3a29",
+  "location" : "D:\\workspace\\MyTestSpark\\MyTestSpark\\wareHouse/spark_demo1/zipcodes",
+  "last-updated-ms" : 1687403766594,
+  "last-column-id" : 20,
+  "schema" : {
+    "type" : "struct",
+    "schema-id" : 0,
+    "fields" : [ {
+      "id" : 1,
+      "name" : "_c0",
+      "required" : false,
+      "type" : "string"
+    }, {
+      "id" : 2,
+      "name" : "_c1",
+      "required" : false,
+      "type" : "string"
+    }, {
+      "id" : 3,
+      "name" : "_c2",
+      "required" : false,
+      "type" : "string"
+    }, {
+      "id" : 4,
+      "name" : "_c3",
+      "required" : false,
+      "type" : "string"
+    }, {
+      "id" : 5,
+      "name" : "_c4",
+      "required" : false,
+      "type" : "string"
+    }, {
+      "id" : 6,
+      "name" : "_c5",
+      "required" : false,
+      "type" : "string"
+    }, {
+      "id" : 7,
+      "name" : "_c6",
+      "required" : false,
+      "type" : "string"
+    }, {
+      "id" : 8,
+      "name" : "_c7",
+      "required" : false,
+      "type" : "string"
+    }, {
+      "id" : 9,
+      "name" : "_c8",
+      "required" : false,
+      "type" : "string"
+    }, {
+      "id" : 10,
+      "name" : "_c9",
+      "required" : false,
+      "type" : "string"
+    }, {
+      "id" : 11,
+      "name" : "_c10",
+      "required" : false,
+      "type" : "string"
+    }, {
+      "id" : 12,
+      "name" : "_c11",
+      "required" : false,
+      "type" : "string"
+    }, {
+      "id" : 13,
+      "name" : "_c12",
+      "required" : false,
+      "type" : "string"
+    }, {
+      "id" : 14,
+      "name" : "_c13",
+      "required" : false,
+      "type" : "string"
+    }, {
+      "id" : 15,
+      "name" : "_c14",
+      "required" : false,
+      "type" : "string"
+    }, {
+      "id" : 16,
+      "name" : "_c15",
+      "required" : false,
+      "type" : "string"
+    }, {
+      "id" : 17,
+      "name" : "_c16",
+      "required" : false,
+      "type" : "string"
+    }, {
+      "id" : 18,
+      "name" : "_c17",
+      "required" : false,
+      "type" : "string"
+    }, {
+      "id" : 19,
+      "name" : "_c18",
+      "required" : false,
+      "type" : "string"
+    }, {
+      "id" : 20,
+      "name" : "_c19",
+      "required" : false,
+      "type" : "string"
+    } ]
+  },
+  "current-schema-id" : 0,
+  "schemas" : [ {
+    "type" : "struct",
+    "schema-id" : 0,
+    "fields" : [ {
+      "id" : 1,
+      "name" : "_c0",
+      "required" : false,
+      "type" : "string"
+    }, {
+      "id" : 2,
+      "name" : "_c1",
+      "required" : false,
+      "type" : "string"
+    }, {
+      "id" : 3,
+      "name" : "_c2",
+      "required" : false,
+      "type" : "string"
+    }, {
+      "id" : 4,
+      "name" : "_c3",
+      "required" : false,
+      "type" : "string"
+    }, {
+      "id" : 5,
+      "name" : "_c4",
+      "required" : false,
+      "type" : "string"
+    }, {
+      "id" : 6,
+      "name" : "_c5",
+      "required" : false,
+      "type" : "string"
+    }, {
+      "id" : 7,
+      "name" : "_c6",
+      "required" : false,
+      "type" : "string"
+    }, {
+      "id" : 8,
+      "name" : "_c7",
+      "required" : false,
+      "type" : "string"
+    }, {
+      "id" : 9,
+      "name" : "_c8",
+      "required" : false,
+      "type" : "string"
+    }, {
+      "id" : 10,
+      "name" : "_c9",
+      "required" : false,
+      "type" : "string"
+    }, {
+      "id" : 11,
+      "name" : "_c10",
+      "required" : false,
+      "type" : "string"
+    }, {
+      "id" : 12,
+      "name" : "_c11",
+      "required" : false,
+      "type" : "string"
+    }, {
+      "id" : 13,
+      "name" : "_c12",
+      "required" : false,
+      "type" : "string"
+    }, {
+      "id" : 14,
+      "name" : "_c13",
+      "required" : false,
+      "type" : "string"
+    }, {
+      "id" : 15,
+      "name" : "_c14",
+      "required" : false,
+      "type" : "string"
+    }, {
+      "id" : 16,
+      "name" : "_c15",
+      "required" : false,
+      "type" : "string"
+    }, {
+      "id" : 17,
+      "name" : "_c16",
+      "required" : false,
+      "type" : "string"
+    }, {
+      "id" : 18,
+      "name" : "_c17",
+      "required" : false,
+      "type" : "string"
+    }, {
+      "id" : 19,
+      "name" : "_c18",
+      "required" : false,
+      "type" : "string"
+    }, {
+      "id" : 20,
+      "name" : "_c19",
+      "required" : false,
+      "type" : "string"
+    } ]
+  } ],
+  "partition-spec" : [ ],
+  "default-spec-id" : 0,
+  "partition-specs" : [ {
+    "spec-id" : 0,
+    "fields" : [ ]
+  } ],
+  "last-partition-id" : 999,
+  "default-sort-order-id" : 0,
+  "sort-orders" : [ {
+    "order-id" : 0,
+    "fields" : [ ]
+  } ],
+  "properties" : {
+    "owner" : "Admin"
+  },
+  "current-snapshot-id" : 3188377230616554224,
+  "refs" : {
+    "main" : {
+      "snapshot-id" : 3188377230616554224,
+      "type" : "branch"
+    }
+  },
+  "snapshots" : [ {
+    "snapshot-id" : 1862148032731164147,
+    "timestamp-ms" : 1687397681956,
+    "summary" : {
+      "operation" : "append",
+      "spark.app.id" : "local-1687397677236",
+      "added-data-files" : "1",
+      "added-records" : "3",
+      "added-files-size" : "6134",
+      "changed-partition-count" : "1",
+      "total-records" : "3",
+      "total-files-size" : "6134",
+      "total-data-files" : "1",
+      "total-delete-files" : "0",
+      "total-position-deletes" : "0",
+      "total-equality-deletes" : "0"
+    },
+    "manifest-list" : "D:/workspace/MyTestSpark/MyTestSpark/wareHouse/spark_demo1/zipcodes/metadata/snap-1862148032731164147-1-486a7041-41af-4b5e-932e-aca6b1f13601.avro",
+    "schema-id" : 0
+  }, {
+    "snapshot-id" : 6670146407003242633,
+    "parent-snapshot-id" : 1862148032731164147,
+    "timestamp-ms" : 1687403529297,
+    "summary" : {
+      "operation" : "append",
+      "spark.app.id" : "local-1687403523841",
+      "added-data-files" : "1",
+      "added-records" : "81832",
+      "added-files-size" : "2559338",
+      "changed-partition-count" : "1",
+      "total-records" : "81835",
+      "total-files-size" : "2565472",
+      "total-data-files" : "2",
+      "total-delete-files" : "0",
+      "total-position-deletes" : "0",
+      "total-equality-deletes" : "0"
+    },
+    "manifest-list" : "D:/workspace/MyTestSpark/MyTestSpark/wareHouse/spark_demo1/zipcodes/metadata/snap-6670146407003242633-1-47f8336d-5cac-4aec-af6c-ba694594db5f.avro",
+    "schema-id" : 0
+  }, {
+    "snapshot-id" : 3188377230616554224,
+    "parent-snapshot-id" : 6670146407003242633,
+    "timestamp-ms" : 1687403766594,
+    "summary" : {
+      "operation" : "append",
+      "spark.app.id" : "local-1687403761108",
+      "added-data-files" : "1",
+      "added-records" : "81832",
+      "added-files-size" : "2559338",
+      "changed-partition-count" : "1",
+      "total-records" : "163667",
+      "total-files-size" : "5124810",
+      "total-data-files" : "3",
+      "total-delete-files" : "0",
+      "total-position-deletes" : "0",
+      "total-equality-deletes" : "0"
+    },
+    "manifest-list" : "D:/workspace/MyTestSpark/MyTestSpark/wareHouse/spark_demo1/zipcodes/metadata/snap-3188377230616554224-1-98dfae05-6bd7-4b54-abcb-10de04af7c4a.avro",
+    "schema-id" : 0
+  } ],
+  "statistics" : [ ],
+  "snapshot-log" : [ {
+    "timestamp-ms" : 1687397681956,
+    "snapshot-id" : 1862148032731164147
+  }, {
+    "timestamp-ms" : 1687403529297,
+    "snapshot-id" : 6670146407003242633
+  }, {
+    "timestamp-ms" : 1687403766594,
+    "snapshot-id" : 3188377230616554224
+  } ],
+  "metadata-log" : [ {
+    "timestamp-ms" : 1687397681956,
+    "metadata-file" : "D:/workspace/MyTestSpark/MyTestSpark/wareHouse/spark_demo1/zipcodes/metadata/v1.metadata.json"
+  }, {
+    "timestamp-ms" : 1687403529297,
+    "metadata-file" : "D:/workspace/MyTestSpark/MyTestSpark/wareHouse/spark_demo1/zipcodes/metadata/v2.metadata.json"
+  } ]
+}

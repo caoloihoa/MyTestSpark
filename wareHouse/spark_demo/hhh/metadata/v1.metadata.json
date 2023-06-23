@@ -1,0 +1,76 @@
+{
+  "format-version" : 1,
+  "table-uuid" : "367bcea2-c795-47cb-a908-0d2a20bff634",
+  "location" : "D:\\workspace\\MyTestSpark\\MyTestSpark\\wareHouse/spark_demo/hhh",
+  "last-updated-ms" : 1687401071833,
+  "last-column-id" : 1,
+  "schema" : {
+    "type" : "struct",
+    "schema-id" : 0,
+    "fields" : [ {
+      "id" : 1,
+      "name" : "_c0",
+      "required" : false,
+      "type" : "string"
+    } ]
+  },
+  "current-schema-id" : 0,
+  "schemas" : [ {
+    "type" : "struct",
+    "schema-id" : 0,
+    "fields" : [ {
+      "id" : 1,
+      "name" : "_c0",
+      "required" : false,
+      "type" : "string"
+    } ]
+  } ],
+  "partition-spec" : [ ],
+  "default-spec-id" : 0,
+  "partition-specs" : [ {
+    "spec-id" : 0,
+    "fields" : [ ]
+  } ],
+  "last-partition-id" : 999,
+  "default-sort-order-id" : 0,
+  "sort-orders" : [ {
+    "order-id" : 0,
+    "fields" : [ ]
+  } ],
+  "properties" : {
+    "owner" : "Admin"
+  },
+  "current-snapshot-id" : 5093178610294231175,
+  "refs" : {
+    "main" : {
+      "snapshot-id" : 5093178610294231175,
+      "type" : "branch"
+    }
+  },
+  "snapshots" : [ {
+    "snapshot-id" : 5093178610294231175,
+    "timestamp-ms" : 1687401071833,
+    "summary" : {
+      "operation" : "append",
+      "spark.app.id" : "local-1687401067209",
+      "added-data-files" : "1",
+      "added-records" : "2575",
+      "added-files-size" : "169137",
+      "changed-partition-count" : "1",
+      "total-records" : "2575",
+      "total-files-size" : "169137",
+      "total-data-files" : "1",
+      "total-delete-files" : "0",
+      "total-position-deletes" : "0",
+      "total-equality-deletes" : "0"
+    },
+    "manifest-list" : "D:/workspace/MyTestSpark/MyTestSpark/wareHouse/spark_demo/hhh/metadata/snap-5093178610294231175-1-e7c06bc6-76c8-4b45-966c-9aca0b0fca29.avro",
+    "schema-id" : 0
+  } ],
+  "statistics" : [ ],
+  "snapshot-log" : [ {
+    "timestamp-ms" : 1687401071833,
+    "snapshot-id" : 5093178610294231175
+  } ],
+  "metadata-log" : [ ]
+}
